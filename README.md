@@ -10,9 +10,10 @@ If you have already cloned it and you want just to get updated data, just pull t
 
 `git pull origin master` 
 
-2. data of whole recorded deaths in Italy by **ISTAT** are avialble [here](https://www.istat.it/it/files//2020/03/comune-giorno.zip).  
+2. data of daily recorded deaths in Italy by **ISTAT** are avialble [here](https://www.istat.it/it/files//2020/03/comune-giorno.zip). This dataset represents all deaths occurred in Italy, not only the ones related to CoViD 19.    
 
-you can download it by running in project directory bash command:
+You can download it by running in project directory bash command:  
+
 `curl -O https://www.istat.it/it/files//2020/03/comune-giorno.zip | unzip comune-giorno.zip`
 
 
